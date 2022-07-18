@@ -1,1 +1,37 @@
+.tite{
+    align-items: baseline;
+}
+.unit{
+    float: right;
+    margin-top: 0px;
+}
+.unit1{
+    display: inline-flex;
+    list-style: none;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 
+}
+.grid-item{
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgb(180, 125, 125);
+    padding: 10px;
+}
+.item1{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    size-adjust: 20px;
+}
+
+.test{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
