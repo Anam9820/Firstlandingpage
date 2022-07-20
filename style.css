@@ -12,7 +12,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 50px;
 
 }
 .grid-item{
@@ -27,7 +27,7 @@
 .flex-container{
     display: flex;
     justify-items: center;
-    background-color: blue;
+    background-color: rgba(221, 138, 138, 0.658);
     flex-direction: row;
     padding: 10px;
     height: 200px;
@@ -51,4 +51,10 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 50px;
+    background-color: black;
+    color: white;
+}
+.grid-item3{
+    padding: 20px;
+    margin: 10px;
 }
