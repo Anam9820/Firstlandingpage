@@ -24,5 +24,13 @@
 .item1{
     text-align: center;
 }
-
+.flex-container{
+    display: flex;
+    justify-items: center;
+    background-color: blue;
+    flex-direction: row;
+    padding: 10px;
+    width: 80%;
+    height: 100pxs;
+}
 
