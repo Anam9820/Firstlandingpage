@@ -34,5 +34,21 @@
 }
 .flex-item{
     background-color: brown;
-    height: 10px;
+    min-height: 10px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 150px;
+    grid-gap: 50px 100px;
+}
+.merge{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 20px;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
 }
