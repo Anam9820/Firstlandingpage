@@ -30,7 +30,9 @@
     background-color: blue;
     flex-direction: row;
     padding: 10px;
-    width: 80%;
-    height: 100pxs;
+    height: 200px;
 }
-
+.flex-item{
+    background-color: brown;
+    height: 10px;
+}
