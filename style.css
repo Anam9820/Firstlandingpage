@@ -57,4 +57,26 @@
 .grid-item3{
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer{
+    font-size: 20px;
+    position: absolute;
+    color: bisque;
+}
+button{
+    font-size: 20px;
+    border-radius: 2px;
+    position: relative;
+    padding: 2px;
+}
+ .copy{
+    font-size: 20px;
+    text-align: center;
+ }
