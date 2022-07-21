@@ -12,14 +12,14 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 50px;
 
 }
 .grid-item{
     background-color: white;
     text-align: center;
-    border: 1px solid rgb(180, 125, 125);
-    padding: 10px;
+    border: 0px solid rgb(180, 125, 125);
+    padding: 20px;
+    font-family: sans-serif;
 }
 .item1{
     text-align: center;
@@ -79,4 +79,8 @@ button{
  .copy{
     font-size: 20px;
     text-align: center;
+ }
+ .image{
+    height:500px;
+    width: 1000px;
  }
