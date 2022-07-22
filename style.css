@@ -97,6 +97,7 @@ button{
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid brown;
+    float: right;
  }
  nav ul li{
     border: 1px solid green;
