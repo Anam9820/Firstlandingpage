@@ -32,6 +32,9 @@
     padding: 150px;
     grid-gap: 50px 100px;
 }
+.text{
+    font-family: cursive;
+}
 .image2{
     height: 5cm;
     width: 7cm;
