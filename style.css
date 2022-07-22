@@ -1,18 +1,9 @@
-.tite{
-    align-items: baseline;
-}
-.unit{
-    float: right;
-}
-.unit1{
-    display: inline-flex;
-    list-style: none;
-}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
-
 }
+
 .grid-item{
     background-color: white;
     text-align: center;
@@ -23,20 +14,16 @@
 .item1{
     text-align: center;
 }
+
 .flex-container{
     display: flex;
     justify-items: center;
-    background-color: rgba(221, 138, 138, 0.658);
     flex-direction: row;
     padding: 10px;
     height: 200px;
-}
-.image{
-    height: 3px;
-    width: 3px;
+    justify-content: center;
 }
 .flex-item{
-    background-color: brown;
     min-height: 10px;
 }
 .grid-container2{
@@ -44,6 +31,10 @@
     grid-template-columns: auto auto auto;
     padding: 150px;
     grid-gap: 50px 100px;
+}
+.image2{
+    height: 5cm;
+    width: 7cm;
 }
 .merge{
     grid-column-start: 1;
@@ -61,6 +52,10 @@
     padding: 20px;
     margin: 10px;
     text-align: center;
+}
+.image3{
+    height: 2cm;
+    width: 3cm;
 }
 
 h3{
@@ -93,7 +88,7 @@ button{
     position: static;
  }
  nav ul{
-    height: 20px;
+    margin-top: 5px;
     width: auto;
     display: flex;
     list-style-type: none;
